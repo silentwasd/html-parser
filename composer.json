@@ -1,0 +1,28 @@
+{
+    "name": "bashkirskykot/html-parser",
+    "version": "0.0.1",
+    "description": "Another html parser.",
+    "keywords": ["html", "parser"],
+    "authors": [
+        {
+            "name": "BashkirskyKot",
+            "email": "silentwasd@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.2",
+        "illuminate/support": "^11.25"
+    },
+    "autoload": {
+        "psr-4": {
+            "BashkirskyKot\\HtmlParser\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BashkirskyKot\\HtmlParser\\ServiceProvider"
+            ]
+        }
+    }
+}
