@@ -24,5 +24,6 @@
                 "BashkirskyKot\\HtmlParser\\ServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev"
 }
