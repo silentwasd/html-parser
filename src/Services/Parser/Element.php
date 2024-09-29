@@ -48,6 +48,20 @@ class Element
         return null;
     }
 
+    public function prev(Element $parent): ?Element
+    {
+        $prev = null;
+
+        foreach ($parent->children as $child) {
+            if ($child->id == $this->id)
+                return $prev;
+
+            $prev = $child;
+        }
+
+        return null;
+    }
+
     public function findNext(Element $parent, callable $func): ?Element
     {
         $el = $this;
