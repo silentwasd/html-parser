@@ -1,6 +1,5 @@
 {
     "name": "bashkirskykot/html-parser",
-    "version": "0.0.1",
     "description": "Another html parser.",
     "keywords": ["html", "parser"],
     "authors": [
